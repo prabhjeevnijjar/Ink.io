@@ -67,5 +67,27 @@ http://localhost:3000/signin
         "nodemon": "^2.0.7",
         "npm": "^7.8.0",
         "path": "^0.12.7"
+  
+ >Registration
+  ![alt tag](https://github.com/prabhjeevnijjar/Ink.io/blob/main/Screenshots/Registration.PNG)
+  
+ >Registration with error
+ > ![alt tag](https://github.com/prabhjeevnijjar/Ink.io/blob/main/Screenshots/Registration%20w%20error.PNG)
+ > 
+ >Signin password error
+ > ![alt tag](https://github.com/prabhjeevnijjar/Ink.io/blob/main/Screenshots/Sign%20in%20password%20error.PNG)
+ > 
+ >Signin email error
+ > ![alt tag](https://github.com/prabhjeevnijjar/Ink.io/blob/main/Screenshots/Sign%20in%20email%20error.PNG)
+ > 
+ >Signed in user's notes
+ > ![alt tag](https://github.com/prabhjeevnijjar/Ink.io/blob/main/Screenshots/Signed%20in%20user's%20notes.PNG)
+ > 
+ >Add new note
+ > ![alt tag](https://github.com/prabhjeevnijjar/Ink.io/blob/main/Screenshots/Add%20new%20note%20for%20signed%20in%20user.PNG)
+ > 
+ >Edit a note
+ > ![alt tag](https://github.com/prabhjeevnijjar/Ink.io/blob/main/Screenshots/Edit%20a%20note.PNG)
 
+ 
 
