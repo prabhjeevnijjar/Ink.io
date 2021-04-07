@@ -67,3 +67,6 @@ http://localhost:3000/signin
         "nodemon": "^2.0.7",
         "npm": "^7.8.0",
         "path": "^0.12.7"
+ ## Dependencies
+      ![image](https://user-images.githubusercontent.com/30125794/113830076-dbeae580-97a3-11eb-9a04-e8e27bc49813.png)
+
