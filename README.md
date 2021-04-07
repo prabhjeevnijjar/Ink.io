@@ -13,6 +13,7 @@ EJS Templating
 ```
 Node.js
 Express.js
+JWTs for API validations
 ```
 ###### Database
 ```
