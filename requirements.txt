@@ -1,0 +1,24 @@
+[X] Registration     TODO: field validations
+    (Use JWTs)
+    (First Name, Last Name, Email, password, Register button)
+
+[X] Login            TODO: field validations
+    (Email, password, Login button)
+[X] Logout
+[X] Homepage
+[X] Show all notes
+[X]    -Add new note button
+        ([X] Text,[] Image, [] Voice)
+[X]    -Edit current note
+[X]    Delete a note
+[]    -Profile Image 
+        (Registered name's initials as Image )
+[]    -Option to upload new profile image
+
+[]    -Pin a note to top of page
+
+
+...
+
+[X] -> Done
+[] -> TODO

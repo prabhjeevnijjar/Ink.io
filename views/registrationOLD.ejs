@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>Welcome to Ink.io</title>
+	<style>
+		.navbar-brand.mb-0.h1{	 
+			width: 100%;
+			text-align: center;
+		}
+		.navbar{
+			background-color: #3EA38E;
+		}
+		.col-4{
+			width:100%;
+			text-align: center;
+			}
+			h4 { 
+				padding-top: 25px; text-align: left;
+			}
+			form{
+				text-align: left;
+			}
+			.btn.btn-success{
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar text-light">
+			<span class="navbar-brand mb-0 h1"><h2>Ink.io</h2></span>
+		</nav>
+
+
+		<div class="container-sm">
+			
+				<h4>Register for a personal account</h4>
+				<form  class="form-horizontal"action="/registration" method="post">
+					
+					<div class="form-control-sm">
+						<label for="name">First Name*</label>
+						<input type="text" class="form-control" name = "FirstName" id="formGroupExampleInput" placeholder="Raju">
+					</div>
+				
+			
+
+					<div class="form-control-sm">
+						<label for="name">Last Name*</label>
+						<input type="text" class="form-control" name = "LastName" id="formGroupExampleInput2" placeholder="Rastogi">
+					</div>
+
+
+					<div class="form-control-sm">
+						<label for="exampleInputEmail1">Email address*</label>
+						<input type="email" class="form-control" name = "Email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+						<small id="emailHelp" class="form-text text-muted">
+							<% if (locals.emailerror) { %>
+
+								<p style="color:tomato";>Email already exists, please try another.</p> 
+							   
+							   <% } %>
+							We'll never share your email with anyone else.</small>
+						
+					</div>
+
+
+					<div class="form-control-sm">
+						<label for="exampleInputPassword1">Password*</label>
+						<input type="password" name = "Password" class="form-control" id="exampleInputPassword1" placeholder="Password"  aria-describedby="passwordHelpBlock">
+						<div id="passwordHelpBlock" class="form-text text-muted">
+						
+							Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+						</div>
+					</div>
+
+					<div class="form-control-sm">
+						<label for="exampleInputPassword2">Confirm Password*</label>
+						<input type="password" name = "PasswordConfirmation" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
+					</div>
+
+					<div class="form-control-sm"></div>
+					<button type="submit" class="btn btn-primary">Register</button>
+					</div>
+					<div>
+						<h4>
+							Have an account SignIn <a href="/signin" >here</a>
+						</h4>
+					</div>
+
+				</form>
+		</div>
+			
+	
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+	</html>
