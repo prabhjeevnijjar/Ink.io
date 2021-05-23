@@ -7,6 +7,7 @@ A Simple note taking website !
 HTML
 CSS
 JavaScript
+Bootstrap 4
 EJS Templating
 ```
 ###### BackEnd
